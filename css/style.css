@@ -136,7 +136,10 @@ span {
  
 .illya .ha {
     animation: ha 10s ease-out 1;
-    transform: scale(10);
+    height: 1px;
+    transform: scale(3000);
+    margin-top: 1500px;
+    margin-left: -400px;
 }
  .illya .i {
    animation: i 2s ease-in-out 1;
