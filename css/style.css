@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+   margin: 0;
+   background: #4d3737;
+   font-family: "Roboto Condensed";
+}
+
+.area {
+    overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-size: 6.5em;
+   color: #fff;
+   letter-spacing: -7px;
+   font-weight: 700;
+   text-transform: uppercase;
+   animation: blur 0.1s ease-out infinite;
+   animation-delay: 1.5s;
+   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+span {
+   margin-left: 40px;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 100px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #ff1395,
+      0px 0px 25px #fff,
+      0px 0px 25px #ff1395,
+      0px 0px 25px #fff,
+      0px 0px 40px #fff,
+      0px 0px 60px #fff,
+      0px 0px 50px #134480,
+      0px 0px 180px #ff1395,
+      0px 10px 100px #134480,
+      0px 10px 100px #ff1395,
+      0px 10px 100px #ff1395,
+      0px 10px 90px #ff1395,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+@keyframes blur {
+    from {
+      text-shadow:0px 0px 100px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #ff1395,
+        0px 0px 25px #fff,
+        0px 0px 25px #ff1395,
+        0px 0px 25px #fff,
+        0px 0px 40px #fff,
+        0px 0px 60px #fff,
+        0px 0px 50px #134480,
+        0px 0px 180px #ff1395,
+        0px 10px 100px #134480,
+        0px 10px 100px #ff1395,
+        0px 10px 100px #ff1395,
+        0px 10px 90px #ff1395,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+  }
+
+ 
+ @keyframes ya {
+   0% {
+     transform: translateX(0) translateY(10px);
+     opacity: 1;
+   }
+   50% {
+     transform: translateX(60px) translateY(-90px);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0) translateY(0);
+     opacity: 1;
+   }
+ }
+
+ @keyframes ha {
+    0% {
+      transform: translateX(10px) translateY(1000000000000px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(0px) translateY(-90px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+  }
+ 
+ @keyframes i {
+   0% {
+     transform: translateX(3000px) translateY(400px);
+     opacity: 1;
+   }
+   50% {
+     transform: translateX(-70px) translateY(-90);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0) translateY(0);
+     opacity: 1;
+   }
+ }
+ 
+ @keyframes l {
+   0% {
+     transform: translateX(0px) translateY(2000);
+     opacity: .50;
+   }
+   50% {
+     transform: translateX(-2989px) translateY(600px);
+     opacity: 0;
+   }
+   100% {
+     transform: translateX(0) translateY(0);
+     opacity: 0.90;
+   }
+
+ } 
+ 
+.illya .ha {
+    animation: ha 10s ease-out 1;
+}
+ .illya .i {
+   animation: i 2s ease-in-out 1;
+ }
+ 
+ .illya .l {
+   animation: l 2s ease-in-out 2;
+ }
+ 
+ .illya .ll {
+    animation: l 2s ease-in-out 4;
+  }
+
+ .illya .ya{
+   animation: i 2s ease-in-out 3;
+ }
+ 
